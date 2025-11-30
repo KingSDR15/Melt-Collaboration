@@ -215,7 +215,7 @@ document.addEventListener("DOMContentLoaded", () => {
       doc.text("Tax Fee: -", 25, y); y += lineHeight;
       doc.text("------------------------------------------------------", 25, y); y += lineHeight;
       doc.setFont("helvetica", "bold");
-      doc.text("Total Payable: $2,000.00", 25, y); y += lineHeight * 2;
+      doc.text("Total Payable: 2,000.00 USD", 25, y); y += lineHeight * 2;
 
       doc.setFontSize(10);
       doc.setFont("helvetica", "italic");
